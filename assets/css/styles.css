@@ -1,0 +1,33 @@
+a {
+    text-decoration: none !important;
+}
+
+.left-side {
+    border: 2px solid black;
+    border-radius: 50px 0 0 50px;
+}
+
+.right-side {
+    border: 2px solid black;
+    border-radius: 0 50px 50px 0;
+}
+
+.search-btn {
+    background-color: #F28B00;
+    color: white;
+    font-weight: bolder;
+}
+
+.icon-style {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px solid #bdbdbd;
+    border-radius: 50%;
+}
+
+.nav-bg{
+    
+}
