@@ -29,5 +29,37 @@ a {
 }
 
 .nav-bg{
-    
+    background-color: #F28B00;
+}
+
+.nav-heading{
+    color: #484848;
+    font-weight: bold;
+  
+}
+
+
+.nav-item{
+    font-weight: 600;
+    font-size: 18px;
+    color: #484848 !important;
+}
+
+.dropdown-style{
+font-weight: 600 !important;
+    font-size: 18px !important;
+    color: #484848 !important;
+}
+
+.menu-tel{
+    font-weight: 400 !important;
+    color: white !important;
+    font-size: 18px !important;
+    background-color: red !important;
+}
+
+.menu-tel:hover{
+    background-color: #F28B00 !important;
+    color: red !important;
+    border: 1px solid red !important;
 }
