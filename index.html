@@ -6,9 +6,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/styles.css">
+
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
     <!-- Bootstrap CSS v5.3.8 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,7 +19,7 @@
 <body>
 
     <!-- top bar -->
-    <div class="container-fluid py-1 border-bottom">
+    <div class="container-fluid py-1 border-bottom top-bar">
         <div class="d-flex mx-5 justify-content-between ">
             <div class="d-flex align-items-center gap-3">
                 <a class="text-muted" href="#">Help</a>
@@ -35,7 +36,7 @@
             <div class="d-flex  align-items-center">
 
                 <div class="btn-group">
-                    <button type="button" class="btn  border-0 dropdown-toggle" data-bs-toggle="dropdown"
+                    <button type="button" class="btn top-bar-btn border-0 dropdown-toggle" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         USD
                     </button>
@@ -46,7 +47,7 @@
 
 
                 <div class="btn-group">
-                    <button type="button" class="btn  border-0 dropdown-toggle" data-bs-toggle="dropdown"
+                    <button type="button" class="btn top-bar-btn border-0 dropdown-toggle" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         English
                     </button>
@@ -57,8 +58,8 @@
                 </div>
 
                 <div class="btn-group align-items-center">
-                    <i class="bi bi-house"></i>
-                    <button type="button" class="btn  border-0 dropdown-toggle" data-bs-toggle="dropdown"
+                    <i class="bi bi-house text-muted"></i>
+                    <button type="button" class="btn top-bar-btn border-0 dropdown-toggle" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         My Dashboard
                     </button>
@@ -187,64 +188,100 @@
     </nav>
 
 
+    <section class="banner-section">
+        <div class="container-fluid  ">
+            <div class="row">
 
-    <div class="container-fluid">
+                <!-- Carousel Section -->
+                <div class="col-sm-12 col-md-9">
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
 
-        <div class="carousel slide" id="myCarousel" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-slide-to="0" data-bs-target="#myCarousel" class="active"></button>
-                <button type="button" data-bs-slide-to="1" data-bs-target="#myCarousel"></button>
-                <button type="button" data-bs-slide-to="2" data-bs-target="#myCarousel"></button>
+                        <div class="carousel-inner">
+
+                            <!-- Slide 1 -->
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 mt-5">
+                                        <div class="d-flex align-items-center banner-img">
+                                            <img src="assets/img/carousel-1.png" class="img-fluid">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-md-6">
+                                        <div class="mt-5 ms-5 carousel-heading">
+                                            <h4 class="fw-bold">SAVE UP TO A $400</h4>
+                                            <h1 class="fw-bold">
+                                                On Selected Laptops & Desktop Or Smartphone
+                                            </h1>
+                                            <p>Terms and Condition Apply</p>
+                                            <button class="rounded-pill text-white px-5 border-0 py-3">
+                                                Shop Now
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 2 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 mt-5">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/img/carousel-2.png" class="img-fluid">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-md-6">
+                                        <div class="mt-5 ms-5 carousel-heading">
+                                            <h4 class="fw-bold">SAVE UP TO A $400</h4>
+                                            <h1 class="fw-bold">
+                                                On Selected Laptops & Desktop Or Smartphone
+                                            </h1>
+                                            <p>Terms and Condition Apply</p>
+                                            <button class="rounded-pill text-white px-5 border-0 py-3">
+                                                Shop Now
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="controls-btn">
+                            
+                            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                                data-bs-slide="prev">
+
+                                <i class="bi bi-arrow-left"></i>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                                data-bs-slide="next">
+
+
+                                <i class="bi bi-arrow-right"></i>
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!-- Right Side Content -->
+                <div class="col-sm-12 col-md-3">
+
+                    <img src="assets/img/header-img.jpg" class="img-fluid">
+
+                </div>
+
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/img/1.jpg" class="w-100 d-block">
-                </div>
-
-                <div class="carousel-item">
-                    <img src="assets/img/2.jpg" class="w-100 d-block">
-                </div>
-
-                <div class="carousel-item">
-                    <img src="assets/img/3.jpg" class="d-block w-100">
-                </div>
-            </div>
-
-            <button type="button" class="carousel-control-prev" data-bs-target="#myCarousel" data-bs-slide="prev"><span
-                    class="carousel-control-prev-icon"></span></button>
-            <button type="button" class="carousel-control-next" data-bs-target="#myCarousel" data-bs-slide="next"><span
-                    class="carousel-control-next-icon"></span></button>
         </div>
+    </section>
 
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="d-flex align-items-center">
-                    <img src="assets/img/" </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4">
-
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4">
-
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-        <!-- Bootstrap JavaScript Bundle (includes Popper) -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"></script>
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
