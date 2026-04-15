@@ -1,13 +1,12 @@
-
 .top-bar a {
-    text-decoration: none ;
+    text-decoration: none;
 }
 
-.top-bar .top-bar-btn{
+.top-bar .top-bar-btn {
     color: #484848;
 }
 
-.top-bar ul li a{
+.top-bar ul li a {
     color: #484848;
 }
 
@@ -51,26 +50,26 @@
 .nav-item {
     font-weight: 600;
     font-size: 18px;
-    color: #484848 ;
+    color: #484848;
 }
 
 nav .dropdown-style {
-    font-weight: 600 ;
-    font-size: 18px ;
-    color: #484848 ;
+    font-weight: 600;
+    font-size: 18px;
+    color: #484848;
 }
 
 nav .menu-tel {
-    font-weight: 400 ;
-    color: white ;
-    font-size: 18px ;
-    background-color: red ;
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+    background-color: red;
 }
 
 nav .menu-tel:hover {
-    background-color: #F28B00 ;
-    color: red ;
-    border: 1px solid red ;
+    background-color: #F28B00;
+    color: red;
+    border: 1px solid red;
 }
 
 .banner-section {
@@ -82,7 +81,7 @@ nav .menu-tel:hover {
 }
 
 .banner-img img {
-    width: 600px ;
+    width: 600px;
 }
 
 .carousel-heading h4 {
@@ -106,7 +105,7 @@ nav .menu-tel:hover {
     background-color: #F28B00;
 }
 
-#myCarousel .controls-btn{
+#myCarousel .controls-btn {
     margin-top: 60px;
 }
 
@@ -145,13 +144,75 @@ nav .menu-tel:hover {
     font-size: 20px;
 }
 
+
+.banner-section{
+    background-color: #F5F5F5;
+}
+
 .banner-section .col-md-3 {
     padding: 0;
 }
 
-.banner-section .col-md-3 img {
+.banner-card {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.315);
+}
+
+.banner-overlay .overlay-text-top .save-badge {
+    background-color: #F28B00;
+    font-size: 20px;
+
+}
+
+.banner-overlay .overlay-text-top .special-offer {
+    color: #F28B00;
+    font-size: 20px;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-content p{
+    color: #F28B00;
+    font-size: 18px;
+}
+
+.banner-content button{
+    background-color: #F28B00;
+}
+
+.service i{
+    color: #F28B00;
+    font-size: 30px;
+}
+
+.service h6{
+    font-weight:700;
+}
+
+.service p{
+    color: #484848;
 }
