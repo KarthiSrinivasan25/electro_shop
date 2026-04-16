@@ -1,3 +1,5 @@
+
+
 .top-bar a {
     text-decoration: none;
 }
@@ -215,4 +217,48 @@ nav .menu-tel:hover {
 
 .service p{
     color: #484848;
+}
+
+.products{
+    background-color: white;
+    border: 1px solid #dddddd ;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
+.products p{
+    color: #484848;
+}
+
+.products h3{
+    color: #F28B00;
+    font-weight: 700;
+}
+
+.products h1{
+    color: red;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.products-section{
+    position: relative;
+    float: left;
+    width: 100%;
+    display: block;
+    clear: both;
+    background-color: #ffff;
+}
+
+
+.products-section .nav-pills .nav-link {
+    color: #484848;
+        transition: 0.3s ease;
+}
+
+.products-section .nav-pills .nav-link.active {
+    background-color: #F28B00 !important;
+    color: #fff;
 }

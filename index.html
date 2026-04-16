@@ -9,18 +9,20 @@
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
 
     <!-- Bootstrap CSS v5.3.8 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
 </head>
 
 <body>
 
     <!-- top bar -->
     <div class="container-fluid py-1 border-bottom top-bar">
-        <div class="d-flex mx-5 justify-content-between ">
+        <div class="d-flex px-5 justify-content-between ">
             <div class="d-flex align-items-center gap-3">
                 <a class="text-muted" href="#">Help</a>
                 <small class="text-muted">/</small>
@@ -74,7 +76,7 @@
 
     <!-- middle bar -->
     <div class="container-fluid py-4">
-        <div class="d-flex mx-5 justify-content-between ">
+        <div class="d-flex px-5 justify-content-between ">
             <div class="logo">
                 <a href="#">
                     <img src="assets/img/logo.png" style="width: 200px;">
@@ -142,8 +144,8 @@
     </nav> -->
 
 
-    <nav class="navbar navbar-expand-lg nav-bg">
-        <div class="container-fluid mx-5 py-1">
+    <nav class="navbar navbar-expand-lg nav-bg ">
+        <div class="container-fluid px-5 py-1">
             <h4 class="nav-heading">
                 <i class="bi bi-list"></i>
                 All Categories
@@ -172,6 +174,18 @@
                             <li><a class="dropdown-item dropdown-style" href="#">Checkout</a></li>
                         </ul>
                     </div>
+
+                    <!-- <li class="nav-item dropdown">
+    <button class="btn dropdown-style border-0 dropdown-toggle"
+        data-bs-toggle="dropdown">
+        Pages
+    </button>
+    <ul class="dropdown-menu mt-2">
+        <li><a class="dropdown-item dropdown-style" href="#">Best Seller</a></li>
+        <li><a class="dropdown-item dropdown-style" href="#">Cart</a></li>
+        <li><a class="dropdown-item dropdown-style" href="#">Checkout</a></li>
+    </ul>
+</li> -->
 
 
                     <li class="nav-item">
@@ -268,7 +282,7 @@
                 </div>
 
                 <div class="col-12 col-md-3 d-none d-lg-block">
-                    <div class="banner-card position-relative text-white " >
+                    <div class="banner-card position-relative text-white ">
 
                         <img src="assets/img/header-img.jpg" class="img-fluid" alt="Product">
 
@@ -322,7 +336,7 @@
                     </div>
                 </div>
 
-                <div class="col-6 col-md-4 col-lg-2 p-4 border-end" >
+                <div class="col-6 col-md-4 col-lg-2 p-4 border-end">
                     <div class="d-flex align-items-center service gap-3">
                         <i class="bi bi-send-fill"></i>
                         <div class="">
@@ -373,7 +387,86 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <a href="#" class="d-flex py-3 px-3 justify-content-between align-items-center products">
+                        <div>
+                            <p>Find The Best Camera For You!</p>
+                            <h3>Smart Camera</h3>
+                            <h1>40% Off</h1>
+                        </div>
+                        <img src="assets/img/product-1.png" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <a href="#" class="d-flex py-3 px-3 justify-content-between align-items-center products">
+                        <div>
+                            <p>Find The Best Watches For You!</p>
+                            <h3>Smart Watch</h3>
+                            <h1>20% Off</h1>
+                        </div>
+                        <img src="assets/img/product-2.png" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
+
+
+    <section class="products-section">
+        <div class="container">
+            <div class="py-5 d-flex justify-content-between">
+                <h1 class="fw-bold">Our Products</h1>
+                <div>
+                    <ul class="nav nav-pills mb-3 gap-4" id="pills-tab" role="productslist">
+                        <li class="nav-item" role="product">
+                            <button class="nav-link rounded-pill bg-light active" id="pills-all-products-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-all-products" type="button" role="tab"
+                                aria-controls="pills-all-products" aria-selected="true">All Products</button>
+                        </li>
+                        <li class="nav-item" role="product">
+                            <button class="nav-link rounded-pill bg-light" id="pills-new-arrivals-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-new-arrivals" type="button" role="tab"
+                                aria-controls="pills-new-arrivals" aria-selected="false">New Arrivals</button>
+                        </li>
+                        <li class="nav-item" role="product">
+                            <button class="nav-link rounded-pill bg-light" id="pills-featured-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-featured" type="button" role="tab" aria-controls="pills-featured"
+                                aria-selected="false">Featured</button>
+                        </li>
+                        <li class="nav-item" role="product">
+                            <button class="nav-link rounded-pill bg-light" id="pills-top-selling-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-top-selling" type="button" role="tab"
+                                aria-controls="pills-top-selling" aria-selected="false">Top Selling</button>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-all-products" role="tabpanel"
+                    aria-labelledby="pills-all-products-tab" tabindex="0">All Products</div>
+                <div class="tab-pane fade" id="pills-new-arrivals" role="tabpanel"
+                    aria-labelledby="pills-new-arrivals-tab" tabindex="0">New Arrivals</div>
+                <div class="tab-pane fade" id="pills-featured" role="tabpanel" aria-labelledby="pills-featured-tab"
+                    tabindex="0">Featured</div>
+                <div class="tab-pane fade" id="pills-top-selling" role="tabpanel"
+                    aria-labelledby="pills-top-selling-tab" tabindex="0">Top Selling</div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
 
     <!-- Bootstrap JavaScript Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
