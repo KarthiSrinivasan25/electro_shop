@@ -262,3 +262,97 @@ nav .menu-tel:hover {
     background-color: #F28B00 !important;
     color: #fff;
 }
+
+.products-section .card{
+    border-radius: 10px;
+}
+
+.products-section .card img {
+    height: 220px;
+    object-fit: cover; /* keeps image nicely cropped */
+}
+
+.products-section .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.products-section .card-title{
+    color: #F28B00;
+
+}
+
+.products-section .card-link{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.products-section .price{
+    color: #F28B00;
+}
+
+
+.products-section .cart-add button{
+    background-color: #F28B00;
+    border: 1px red solid;
+}
+
+
+
+.img-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-box img {
+    width: 100%;
+   
+    object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.product-sec-ban {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(245, 245, 245, 0.4);
+    
+}
+
+.product-sec-ban-text {
+   position: absolute;
+    top: 15%;
+    left: 0;
+   padding: 30px;
+}
+
+.product-sec-ban  h1{
+    color: #F28B00;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.product-sec-ban p{
+    font-size: 26px;
+}
+
+.product-sec-ban .shop-btn{
+    background-color: #F28B00;
+}
+
+.product-sec-ban .shop-btn:hover{
+    background-color: red;
+    border: 1px #F28B00 solid;
+}
+
+.product-sec-ban2  {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(242, 139, 0, 0.4);
+    border-radius: 10px;
+}
+
+
