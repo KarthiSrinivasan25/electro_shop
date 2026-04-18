@@ -355,4 +355,65 @@ nav .menu-tel:hover {
     border-radius: 10px;
 }
 
+.product-sec-ban2  h1{
+    color: red;
+    font-weight: 600;
+    font-size: 75px;
+}
 
+.product-sec-ban2 p{
+    font-size: 46px;
+}
+
+.product-sec-ban2 .shop-btn{
+    background-color: red;
+}
+
+.product-sec-ban2 .shop-btn:hover{
+    background-color: #F28B00;
+    border: 1px red solid;
+}
+
+.product-list-heading h4{
+    color: #F28B00;
+    font-weight: bold;
+}
+
+.product-list-heading h1{
+    font-weight: bolder;
+    font-size: 56px;
+    color: #484848;
+}
+
+.owl-carousel2,
+.owl-carousel2 .owl-stage-outer {
+    width: 100%;
+    overflow: hidden;
+}
+
+.owl-carousel2 .item {
+    display: flex;
+    align-items: center;
+}
+
+
+.inner-slider h5{
+    color: #F28B00;
+}
+
+.inner-slider h3{
+    color: #484848;
+    font-weight: 600;
+}
+
+.inner-slider del{
+    color: #919191;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.inner-slider span{
+    color: #F28B00;
+    font-weight: 400;
+    font-size: 20px;
+}
