@@ -385,15 +385,54 @@ nav .menu-tel:hover {
     color: #484848;
 }
 
+
+.owl-carousel .owl-nav {
+   
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+  background: #F28B00;
+  color: inherit;
+  border: none;
+  padding: 0px 40px !important;
+  font: inherit;
+  border-radius: 20px;
+  font-size: 26px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+  background: red; 
+
+}
+
+
 .owl-carousel2,
 .owl-carousel2 .owl-stage-outer {
     width: 100%;
     overflow: hidden;
 }
 
+
+.owl-carousel2 .owl-nav {
+    display: none !important;
+}
 .owl-carousel2 .item {
     display: flex;
     align-items: center;
+}
+
+
+.inner-slider{
+    border-radius: 10px;
 }
 
 
@@ -417,3 +456,4 @@ nav .menu-tel:hover {
     font-weight: 400;
     font-size: 20px;
 }
+

@@ -650,7 +650,9 @@
                 <h1>All Products Items</h1>
             </div>
 
-            <div class="owl-carousel">
+
+
+            <div class="owl-carousel py-5">
 
                 <div class="item">
                     <div class="p-2">
@@ -664,13 +666,23 @@
                                         <div class="product-mini-img h-100">
                                             <img src="assets/img/product-4.png" class="img-fluid">
                                         </div>
-                                        
+
                                     </div>
                                     <div class="col-7 p-3">
                                         <h5>SmartPhone</h5>
                                         <h3>Canon Pro 5</h3>
                                         <del>₹50,999.00</del>
                                         <span>₹48,000.00</span>
+                                    </div>
+
+                                    <div class="position-absolute d-flex justify-content-between">
+                                        <div>
+                                            <button class="btn-success rounded-pill">Add To Cart</button>
+                                        </div>
+                                        <div class="gap-3">
+                                            <i class="bi bi-shuffle"></i>
+                                            <i class="bi bi-heart-fill"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -689,13 +701,141 @@
                                 </div>
                             </div>
 
+
+                            <div class="item">
+                                <div class="d-flex">
+                                    <div class="col-5 border-end">
+                                        <img src="assets/img/product-6.png" class="img-fluid">
+                                    </div>
+                                    <div class="col-7 p-3">
+                                        <h5>Camera</h5>
+                                        <h3>Oppo Mini Cam</h3>
+                                        <del>₹5,999.00</del>
+                                        <span>₹8,000.00</span>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
 
                     </div>
                 </div>
 
-                <div class="item">Welcome</div>
-                <div class="item">Hello 2</div>
+                <!-- outer carousel 2 -->
+                <div class="item">
+                    <div class="p-2">
+
+                        <!-- INNER CAROUSEL -->
+                        <div class="owl-carousel2 inner-slider border">
+
+                            <div class="item">
+                                <div class="d-flex">
+                                    <div class="col-5 border-end">
+                                        <div class="product-mini-img h-100">
+                                            <img src="assets/img/product-7.png" class="img-fluid">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-7 p-3">
+                                        <h5>Camera</h5>
+                                        <h3>Polarised </h3>
+                                        <del>₹56,999.00</del>
+                                        <span>₹49,000.00</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="d-flex">
+                                    <div class="col-5 border-end">
+                                        <img src="assets/img/product-8.png" class="img-fluid">
+                                    </div>
+                                    <div class="col-7 p-3">
+                                        <h5>Headphones</h5>
+                                        <h3>Oneplus Buds</h3>
+                                        <del>₹3,200.00</del>
+                                        <span>₹4,000.00</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="item">
+                                <div class="d-flex">
+                                    <div class="col-5 border-end">
+                                        <img src="assets/img/product-9.png" class="img-fluid">
+                                    </div>
+                                    <div class="col-7 p-3">
+                                        <h5>Tab</h5>
+                                        <h3>Apple Tab 3</h3>
+                                        <del>₹30,999.00</del>
+                                        <span>₹33,000.00</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- outer carousel 3 -->
+                <div class="item">
+                    <div class="p-2">
+
+                        <!-- INNER CAROUSEL -->
+                        <div class="owl-carousel2 inner-slider border">
+
+                            <div class="item">
+                                <div class="d-flex">
+                                    <div class="col-5 border-end">
+                                        <div class="product-mini-img h-100">
+                                            <img src="assets/img/product-10.png" class="img-fluid">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-7 p-3">
+                                        <h5>SmartPhone</h5>
+                                        <h3>iPhone Mini 5</h3>
+                                        <del>₹39,999.00</del>
+                                        <span>₹43,000.00</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="d-flex">
+                                    <div class="col-5 border-end">
+                                        <img src="assets/img/product-11.png" class="img-fluid">
+                                    </div>
+                                    <div class="col-7 p-3">
+                                        <h5>Laptop</h5>
+                                        <h3>Dell Inspiration</h3>
+                                        <del>₹63,999.00</del>
+                                        <span>₹69,000.00</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="item">
+                                <div class="d-flex">
+                                    <div class="col-5 border-end">
+                                        <img src="assets/img/product-12.png" class="img-fluid">
+                                    </div>
+                                    <div class="col-7 p-3">
+                                        <h5>Monitor</h5>
+                                        <h3>Samsung 32"</h3>
+                                        <del>₹8,999.00</del>
+                                        <span>₹11,000.00</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -718,57 +858,57 @@
     <script>
         $(document).ready(function () {
 
-            // 1. OUTER CAROUSEL
+            // OUTER CAROUSEL
             var outer = $(".owl-carousel");
 
             outer.owlCarousel({
                 loop: true,
                 margin: 10,
-                smartSpeed: 800,
-                autoplay: true,
-                autoplayTimeout: 2500,
+                smartSpeed: 2000,
+                autoplay: false,
+                autoplayTimeout: 4000,
                 nav: true,
                 dots: true,
+                navText: ["<", ">"],
+
+                //         navText: [
+                //   '<i class="bi bi-chevron-compact-left"></i>',
+                //   '<i class="bi bi-chevron-compact-right"></i>'
+                // ],
+
                 responsive: {
                     0: { items: 1 },
                     600: { items: 2 },
                     1000: { items: 3 }
-                }
+                },
+                onInitialized: initInner
             });
 
-            // 2. INIT INNER AFTER OUTER IS READY (IMPORTANT)
+            // INIT INNER ONLY ONCE
             function initInner() {
-
                 $(".owl-carousel2").each(function () {
 
-                    if (!$(this).hasClass("owl-loaded")) {
+                    var $this = $(this);
 
-                        $(this).owlCarousel({
+                    // prevent multiple init
+                    if (!$this.hasClass("owl-loaded")) {
+
+                        $this.owlCarousel({
+                            items: 1,
                             loop: true,
                             margin: 10,
-                            items: 1,
                             nav: false,
                             dots: false,
-                            smartSpeed: 800,
-                            autoplay: true,
-                            autoplayTimeout: 1500,
+                            smartSpeed: 1500,
+                            autoplay: false,
+                            autoplayTimeout: 3000,
                             autoplayHoverPause: true
                         });
 
                     }
 
                 });
-
             }
-
-            // 3. INIT AFTER OUTER LOAD + AFTER SLIDE CHANGE
-            initInner();
-
-            outer.on('translated.owl.carousel initialized.owl.carousel', function () {
-                setTimeout(function () {
-                    $(".owl-carousel2").trigger('refresh.owl.carousel');
-                }, 150);
-            });
 
         });
     </script>
