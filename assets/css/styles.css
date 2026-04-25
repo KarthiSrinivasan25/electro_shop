@@ -438,22 +438,68 @@ nav .menu-tel:hover {
 
 .inner-slider h5{
     color: #F28B00;
+    font-size: 20px;
 }
 
 .inner-slider h3{
     color: #484848;
     font-weight: 600;
+    font-size: 24px;
 }
 
 .inner-slider del{
     color: #919191;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .inner-slider span{
     color: #F28B00;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
 }
 
+.product-content{
+    border-radius: 10px;
+}
+
+/* Hide cart-actions by default */
+.cart-actions {
+    margin-top: 5px;
+    display: none;
+    border-radius: 10px;
+    /* Optional: add transition for smooth appearance */
+    transition: opacity 0.3s ease;
+}
+
+
+/* Show cart-actions when hovering over the item */
+.item:hover .cart-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+     border-radius: 10px;
+}
+
+.cart-actions button{
+    background-color: #F28B00;
+    border: 1px solid red;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.cart-actions button:hover{
+    background-color: red;
+    color: #fff;
+}
+
+/* Ensure icons are spaced out inside the cart-actions */
+.cart-actions .icons {
+    display: flex;
+    gap: 15px; /* Adjust gap as needed */
+}
+
+.product-box {
+        padding: 5px;
+    }
