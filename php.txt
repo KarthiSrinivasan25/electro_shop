@@ -1,0 +1,138 @@
+🧠 1. PHP Basics (முதலில் இதுதான்)
+
+இது foundation level
+
+🔹 Learn:
+PHP syntax
+Variables ($name)
+Data types (string, int, array, boolean)
+echo / print
+Operators (+, -, *, /)
+Comments
+
+👉 இதை தெரிஞ்சா basic coding start பண்ணலாம்
+
+🔀 2. Conditions & Loops
+
+Logic build பண்ண இது முக்கியம்
+
+🔹 Learn:
+if / else
+else if
+switch case
+for loop
+while loop
+foreach loop
+
+👉 real world logic (login check, marks system)
+
+📦 3. Functions
+
+Code reuse பண்ண கற்றுக்கொள்ள
+
+🔹 Learn:
+function creation
+parameters
+return values
+built-in functions (strlen, date, etc.)
+🌐 4. Forms (Frontend + PHP connection)
+
+Web development start here
+
+🔹 Learn:
+HTML forms
+GET / POST method
+$_GET, $_POST
+form validation
+
+👉 example: login form, registration form
+
+🗄️ 5. MySQL Database
+
+Data store பண்ண இது முக்கியம்
+
+🔹 Learn:
+Database creation
+Table creation
+Primary key, Auto increment
+SQL basics:
+SELECT
+INSERT
+UPDATE
+DELETE
+🔗 6. PHP + MySQL (Most important 🔥)
+
+Real backend development
+
+🔹 Learn:
+Database connection (mysqli / PDO)
+CRUD operations
+Create
+Read
+Update
+Delete
+Fetch data from database
+🔐 7. Login System (Very Important)
+
+Real project skill
+
+🔹 Learn:
+Registration system
+Login system
+Password hashing
+Sessions ($_SESSION)
+Logout system
+🧩 8. Intermediate PHP
+
+Next level skills
+
+🔹 Learn:
+Arrays (advanced)
+File handling (read/write files)
+Include / require
+Error handling
+Filters & validation
+🚀 9. Advanced PHP
+
+Job-ready level
+
+🔹 Learn:
+OOP PHP (Object Oriented Programming)
+class
+object
+inheritance
+MVC basics
+API creation (JSON)
+REST API basics
+🛠️ 10. Real Projects (Important 🔥)
+
+இது தான் job-ready ஆகும் part
+
+🔹 Build:
+Student management system
+Login system
+Blog system
+E-commerce basic backend
+Contact form with database
+📌 Simple roadmap summary:
+
+👉 PHP Basics
+👉 Conditions + Loops
+👉 Forms
+👉 MySQL
+👉 PHP + MySQL (CRUD)
+👉 Login System
+👉 OOP PHP
+👉 Projects
+
+💡 Final advice:
+
+நீ job / freelance போகணும்னா:
+👉 PHP + MySQL + Login system + CRUD = MUST
+
+நீ விரும்பினா நான் உனக்கு 👇
+👉 “Day 1 to Day 10 PHP learning plan”
+👉 “Full login system project step-by-step”
+👉 “Real CRUD project build பண்ணி கற்றுக்கொடுக்கலாம்”
+
+எது வேணும்னு சொல்லு 👍
